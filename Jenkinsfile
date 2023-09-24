@@ -15,21 +15,21 @@ pipeline {
         stage('Build') {
             steps {
                 // Étape pour construire votre application (par exemple, compilation, assemblage)
-                sh 'npm install' // Exemple d'instruction de construction
+               // sh 'npm install' // Exemple d'instruction de construction
             }
         }
 
         stage('Test') {
             steps {
                 // Étape pour exécuter des tests automatisés
-                sh 'npm test' // Exemple d'instruction de test
+               // sh 'npm test' // Exemple d'instruction de test
             }
         }
 
         stage('Deploy') {
             steps {
                 // Étape pour déployer votre application (par exemple, sur un serveur)
-                sh 'npm deploy' // Exemple d'instruction de déploiement
+                //sh 'npm deploy' // Exemple d'instruction de déploiement
             }
         }
     }
